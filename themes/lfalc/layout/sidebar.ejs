@@ -1,0 +1,40 @@
+<!-- 侧边栏导航 -->
+
+<!-- 标题 -->
+
+<h2 class="title">
+    <img src="../lib/favicon.png" alt="icon">
+    <%- theme.webtitle %>
+</h2>
+
+
+<!-- 内部链接 -->
+<div class="menu-item-menus">
+    <ul id="menu">
+        <% for ( menu in theme.menus) { %>
+                <li class="menu-item">
+                    <a href="<%- theme.menus[menu] %>">
+                        <!-- <i class="fa-solid fa-code fa-lg"></i> -->
+                        <!-- <i class="fa-regular fa-folder-minus"></i> -->
+                        <i class="fa-solid fa-folder-minus"></i>
+                        <span><%- menu %></span>
+                    </a>
+                </li>
+            <% } %>
+    </ul>
+</div>
+
+
+
+<!-- 底部外部链接及说明 -->
+<div class="menu-item-link">
+    <% for (link in theme.links){ %>
+        <a href="<%- theme.links[link] %>" class="menu-item-link" target="_blank">
+            <i class="fa-brands fa-github fa-lg"></i>
+        </a>
+        <%} %>
+            <div class="BottomDescription">lfalc©2023</div>
+</div>
+
+
+<!-- 底部说明 -->

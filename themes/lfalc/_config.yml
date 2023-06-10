@@ -1,0 +1,26 @@
+title: Lfalc
+
+# 网站标题
+webtitle: 百草园
+
+author: clacck
+
+menus: 
+  主页: /
+  分类: /categories
+  归档: /archives
+  标签: /tags
+  项目: /repository
+  关于: /about
+
+icons:
+  home: fa-regular fa-house
+  categories: categories
+  archives: archives
+  tags: tags
+  repository: repository
+  about: about
+
+
+links:
+  github: https://github.com/DDH-qiu
